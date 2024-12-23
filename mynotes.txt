@@ -5,3 +5,8 @@ we will work on project tours
 
 
 it will help us to learn how to create REST ful APIs
+
+in request and response, 
+they are bit different in express than in node
+in express they have a lot more data and methods/functions on them
+
