@@ -10,3 +10,18 @@ in request and response,
 they are bit different in express than in node
 in express they have a lot more data and methods/functions on them
 
+
+
+
+-----------------
+express
+----------------
+
+res.send - sends back string to the client
+we can do same with
+res.json
+better for when using postman
+
+//res.status(200).send("hello from the server babe")
+res.json(200).send("hello from the server babe")
+in the above .json sets the content type to json
